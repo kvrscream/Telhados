@@ -21,7 +21,13 @@ class CategoriesController extends AppController {
     	$this->layout = 'admin';
 
     	if($this->request->is('post')){
-    		debug($this->request->data);die;
+    		$this->Category->create();
+    		if($this->Category->save($this->request->data)){
+    			$this->Session->setFlash(__("Salvo com sucesso!"), "default", array("class" => "alert alert-success"));
+        		$this->redirect(["action" => "index"]);
+    		} else {
+    			$this->Session->setFlash(__("Ocorreu um erro ao tentar salvar!"), "default", array("class" => "alert alert-danger"));
+    		}
     	}
 
     	$this->set("form_action", "add");
@@ -30,7 +36,11 @@ class CategoriesController extends AppController {
 
 
 
-
+    public function delete($id=null){
+    	if($this->Category->delete($id)){
+			$this->redirect("index");
+		}
+    }
 
 
 }

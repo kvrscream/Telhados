@@ -13,7 +13,7 @@
 			<?php if(!empty($dados)) {?>
 				<?php foreach ($dados as $data) { ?>
 					<tr>
-						<td><?php echo $dados["Category"]["name"] ?></td>
+						<td><?php echo $data["Category"]["name"] ?></td>
 						<td>
 							<a href="<?php echo $this->base.'/categories/delete/'.$data["Category"]["id"] ?>" class="btn btn-danger">
 								Excluir
@@ -22,9 +22,9 @@
 					</tr>
 				<?php } ?>
 			<?php } else { ?>
-							<tr>
-								<td colspan="6">Nenhum cadastro foi encontrado.</td>
-							</tr>
+						<tr>
+							<td colspan="6">Nenhum cadastro foi encontrado.</td>
+						</tr>
 			<?php } ?>		
 			</tbody>
 		</table>

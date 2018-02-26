@@ -43,19 +43,6 @@ class EmailConfig {
 		//'headerCharset' => 'utf-8',
 	);
 
-	public $smtp = array(
-		'transport' => 'Smtp',
-		'host' => 'smtp.gmail.com',
-		'port' => 587,
-		'timeout' => 30,
-		'subject' => "Fale conosco - telhados site",
-		'username' => 'sites.future@gmail.com',
-		'password' => '01motorhead',
-		'client' => null,
-		'log' => false,
-		'charset' => 'utf-8',
-		'headerCharset' => 'utf-8',
-	);
 
 	public $gmail = array(
             'host' => 'smtp.unimetaltelhados.com.br',

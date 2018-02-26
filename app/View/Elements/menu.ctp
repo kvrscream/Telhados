@@ -16,22 +16,10 @@
                                                      ); 
                             ?>
             </div>
-            <center>
-                <?php echo $this->html->image('logo.png',
-                                                        array('alt' => "logo", 
-                                                            "width" => 120,
-                                                            "class" => 'img-responsive hidden-xs',
-                                                                "url" => array("Contorler" => "Home", "Action" => "index")
-                                                        )
-                                                     ); ?>
-                                                     <strong class="txt-color hidden-xs ">
-                        2408-1035 | 2229-6985
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i> (11) 99882-1777
-                    </strong> 
-            </center>
+            
             <div class="navbar-collapse collapse menu-link">
                 <ul class="nav navbar-nav menu-link">
-                <!--     <li>
+                <li>
                         <?php echo $this->html->image('logo.png',
                                                         array('alt' => "logo", 
                                                             "width" => 150,
@@ -48,8 +36,8 @@
                         2408-1035 | 2229-6985
                         <br />
                         <i class="fa fa-whatsapp" aria-hidden="true"></i> (11) 99882-1777
-                    </strong> -->
-                    <!-- <div class="row hidden-xs super-right">
+                    </strong> 
+                     <div class="row hidden-xs super-right">
                         <div class="col-md-3">
                             <a href="http://www.unimetalestruturas.com.br/" target="_blank">
                             <?php echo $this->html->image('cobertura-policarbonato.jpg',
@@ -91,7 +79,7 @@
                                                      ); 
                             ?>
                         </div>
-                    </div> -->
+                    </div>
                     </li>
                     <br />
                     <li class="hidden-xs"><a href="<?php echo $this->base.'/Home/index'?>">Home</a></li>

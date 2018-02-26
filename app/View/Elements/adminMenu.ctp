@@ -96,7 +96,7 @@
                     <br />
                     <li class="hidden-xs"><a href="<?php echo $this->base.'/Home/index'?>">Site</a></li>
                     <li class="visible-xs"><a href="<?php echo $this->base.'/Home/index'?>">Site</a></li>
-                    <li><a href="<?php echo $this->base?>/Products/index">Produtos</a></li>
+                    <li><a href="<?php echo $this->base?>/Products/page">Produtos</a></li>
                     <li> <a href="<?php echo $this->base?>/telhados">Telhados</a></li>
                     <li><a href="<?php echo $this->base?>/categorias">Categorias</a></li>
                 </ul>

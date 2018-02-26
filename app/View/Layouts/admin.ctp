@@ -72,7 +72,7 @@ echo $this->fetch('script');
 			?>
 
 		</div>
-		<?php echo $this->element("footer"); ?>
+		<?php echo "&copy; Todos os direitos reservados Unimetal Esruturas - ". date("Y"); ?>
 	</div>
 </body>
 </html>

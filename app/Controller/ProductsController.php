@@ -186,7 +186,7 @@ class ProductsController extends AppController {
 
    	 	$category = $this->Category->find("list");
     	
-   	 	$category_ajust = '';
+   	 	$category_ajust = array();
    	 	
    	 	$i = 0;
    	 	foreach ($category as $key => $value) {
@@ -200,9 +200,9 @@ class ProductsController extends AppController {
 
 	public function list($id=null){
 
-		$dados = $this->Page->find("all", ["conditions" => ["Category.id" => $id] ] );
+		$data = $this->Page->find("all", ["conditions" => ["Category.id" => $id] ] );
 
-		$this->set(compact("dados"));
+		$this->set(compact("data"));
 		$this->set("description", "Produtos");
 	}
 

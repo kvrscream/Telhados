@@ -5,6 +5,10 @@ class ProductsController extends AppController {
 	public $helpers = array('Html', 'Form');
 	public $uses = ["Product", "Page", "Category"];
 
+	public function beforeFilter(){
+		parent::beforeFilter();
+      	$this->Auth->allow('getCategories', 'list', 'detalhe');
+	}
 
 	public function index(){
 		$this->layout = "admin";
@@ -80,8 +84,8 @@ class ProductsController extends AppController {
 
 	public function page(){
 		$this->layout = 'admin';
-
 		$dados = $this->Page->find("all");
+
 		$this->set("description", "Produtos");
 		$this->set(compact("dados"));
 	}
@@ -127,7 +131,7 @@ class ProductsController extends AppController {
 	}
 
 
-	public function editPage(){
+	public function editPage($id=null){
 		$this->layout = 'admin';
 
 		$this->Page->id = $id;
@@ -168,6 +172,38 @@ class ProductsController extends AppController {
 		$this->set(compact("category"));
 
 		$this->render("addPage");
+	}
+
+	public function deletePage($id=null){
+		if($this->page->delete($id)){
+			$this->redirect(["action" => "page"]);
+		}
+	}
+
+
+	public function getCategories(){
+		$this->layout = 'ajax';
+
+   	 	$category = $this->Category->find("list");
+    	
+   	 	$category_ajust = '';
+   	 	
+   	 	$i = 0;
+   	 	foreach ($category as $key => $value) {
+   	 		$category_ajust[$i]["id"] = $key;
+   	 		$category_ajust[$i]["categoria"] = $value;
+   	 		$i++;
+   	 	} 
+
+    	echo json_encode($category_ajust);
+	}
+
+	public function list($id=null){
+
+		$dados = $this->Page->find("all", ["conditions" => ["Category.id" => $id] ] );
+
+		$this->set(compact("dados"));
+		$this->set("description", "Produtos");
 	}
 
 }

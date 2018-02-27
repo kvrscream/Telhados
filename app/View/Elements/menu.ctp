@@ -85,7 +85,18 @@
                     <li class="hidden-xs"><a href="<?php echo $this->base.'/Home/index'?>">Home</a></li>
                     <li class="visible-xs"><a href="<?php echo $this->base.'/Home/index'?>">Home</a></li>
                     <li><a href="<?php echo $this->base?>/Estruturas/index">Tipos de Estruturas</a></li>
-                    <li><a href="<?php echo $this->base?>/Produtos/index">Produtos</a></li>
+                    
+                    <!-- <li><a href="<?php echo $this->base?>/Produtos/index">Produtos</a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Produtos
+                        </a>
+                        <div class="dropdown-menu" id="categorias" aria-labelledby="navbarDropdownMenuLink">
+                          
+                        </div>
+                      </li>
+
+
                     <li><a href="<?php echo $this->base?>/Orcamentos/index">Orçamentos</a></li>
                     <li><a href="<?php echo $this->base?>/Contatos/index">Fale Conosco</a></li>
                 </ul>

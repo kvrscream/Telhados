@@ -11169,3 +11169,263 @@ Request URL: /telhados/img/favicon.ico
 Stack Trace:
 #0 /var/www/html/telhados/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-02-27 13:42:05 Error: [MissingActionException] Action ProductsController::getCategory() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'getCategory',
+)
+Request URL: /telhados/products/getCategory
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-27 13:44:57 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 13:45:32 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 13:45:48 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 13:45:59 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 13:46:07 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 13:46:07 Error: [MissingViewException] View file "Products\get_categories.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\get_categories.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\get_ca...')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-27 14:26:26 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:26:31 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:27:10 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:27:44 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:28:06 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:28:17 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:28:17 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 14:33:49 Error: [MissingViewException] View file "Products\ajax.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\ajax.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\ajax')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render('ajax', NULL)
+#2 C:\xampp\htdocs\telhados\app\Controller\ProductsController.php(188): Controller->render('ajax')
+#3 [internal function]: ProductsController->getCategories()
+#4 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-02-27 14:34:02 Error: [MissingViewException] View file "Products\ajax.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\ajax.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\ajax')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render('ajax', NULL)
+#2 C:\xampp\htdocs\telhados\app\Controller\ProductsController.php(188): Controller->render('ajax')
+#3 [internal function]: ProductsController->getCategories()
+#4 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-02-27 14:34:03 Error: [MissingViewException] View file "Products\ajax.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\ajax.ctp',
+)
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\ajax')
+#1 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(963): View->render('ajax', NULL)
+#2 C:\xampp\htdocs\telhados\app\Controller\ProductsController.php(188): Controller->render('ajax')
+#3 [internal function]: ProductsController->getCategories()
+#4 C:\xampp\htdocs\telhados\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-02-27 15:11:10 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 15:11:21 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 15:16:12 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')'
+Request URL: /telhados/Products/getCategory
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 15:16:13 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')'
+Request URL: /telhados/products/getCategories
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-27 15:16:34 Error: [MissingActionException] Action ProductsController::getCategory() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'getCategory',
+)
+Request URL: /telhados/Products/getCategory
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-27 15:24:04 Error: [MissingActionException] Action ProductsController::list() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'list',
+)
+Request URL: /telhados/products/list/4
+Stack Trace:
+#0 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

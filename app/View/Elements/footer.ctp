@@ -53,3 +53,20 @@
             </div>
         </footer>
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $.ajax({
+                url: '<?php echo $this->base ?>/products/getCategories',
+                'dataType':'json',
+                success: function(result){
+                    var html = '';
+                    $.each(result, function(i, item) {
+                        html = '<li><a class="dropdown-item" href=" <?php echo $this->base ?>/products/list/'+result[i]["id"]+'" > '+result[i]["categoria"]+' </a></li>'
+                        $(".dropdown-menu").append(html);
+                    });
+                    
+                }
+            })
+        })
+    </script>

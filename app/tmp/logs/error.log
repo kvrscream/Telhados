@@ -11160,3 +11160,12 @@ Stack Trace:
 #7 /var/www/html/telhados/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
 #8 /var/www/html/telhados/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #9 {main}
+2018-02-26 21:11:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /telhados/img/favicon.ico
+Stack Trace:
+#0 /var/www/html/telhados/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

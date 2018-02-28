@@ -27,7 +27,7 @@
             <div class="card-block">
               <h4 class="card-title"><?php echo $dados['Page']['title'];  ?></h4>
               <p class="card-text">
-                <?php echo $dados['Product']['text']; ?>
+                <?php echo $dados['Page']['text']; ?>
               </p> 
             </div>
           </div>

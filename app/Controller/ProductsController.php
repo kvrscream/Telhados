@@ -137,16 +137,18 @@ class ProductsController extends AppController {
 		$this->Page->id = $id;
 		if($this->request->is('post')){
 			//Move o arquivo da TMP para o img do webroot
-			move_uploaded_file(
-	  		  $this->request->data['Products']['image']['tmp_name'],
-	    		WWW_ROOT.'/img/' . basename($this->request->data['Products']['image']['name'])
-			);
+			if($this->request->data['Products']['image']['tmp_name'] != null){
+				move_uploaded_file(
+	  		  		$this->request->data['Products']['image']['tmp_name'],
+	    			WWW_ROOT.'/img/' . basename($this->request->data['Products']['image']['name'])
+				);
 
-			move_uploaded_file(
-	  		  $this->request->data['Products']['image_text']['tmp_name'],
-	    		WWW_ROOT.'/img/' . basename($this->request->data['Products']['image_text']['name'])
-			);
-
+				move_uploaded_file(
+		  		  $this->request->data['Products']['image_text']['tmp_name'],
+		    		WWW_ROOT.'/img/' . basename($this->request->data['Products']['image_text']['name'])
+				);
+			}
+			
 			$this->request->data['Page']['image'] = $this->request->data['Products']['image']['name'];
 			$this->request->data['Page']['image_text'] = $this->request->data['Products']['image_text']['name'];
 
@@ -164,14 +166,15 @@ class ProductsController extends AppController {
 		}
 
 		$this->request->data = $this->Page->read();
-
+		$this->request->data['Products'] = $this->request->data['Page'];
+		
 		$category = $this->Category->find("list");
 
 		$this->set("form_action", "editPage");
 		$this->set("description", "Adicionar Produto");
 		$this->set(compact("category"));
 
-		$this->render("addPage");
+		$this->render("add_page");
 	}
 
 	public function deletePage($id=null){

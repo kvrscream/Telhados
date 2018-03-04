@@ -34,7 +34,6 @@
 	Router::connect('/estruturas/telhado-vidro', array('controller' => 'estruturas', 'action' => 'telhado_vidro'));
 	Router::connect('/estruturas/telhado-fibrocimento', array('controller' => 'estruturas', 'action' => 'telhado_fibrocimento'));
 	Router::connect('/Contato/fale-conosco', array('controller' => 'contatos', 'action' => 'index'));
-	Router::connect('/robots.txt', array('controller' => 'Seo', 'action' => 'robots'));
 	Router::connect('/telhados', array('controller' => 'Products', 'action' => 'index'));
 	Router::connect('/categorias', array('controller' => 'Categories', 'action' => 'index'));
 	

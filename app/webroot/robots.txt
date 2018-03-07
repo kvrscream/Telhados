@@ -3,3 +3,5 @@ allow:	 /
 
 User-Agent: Googlebot
 allow: /
+
+Sitemap: http://unimetaltelhados.com/sitemap.xml

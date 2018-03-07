@@ -19,6 +19,7 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-site-verification" content="aW3IppDwNGLUCBIRv7cXeDKlbW3yygBsZ9Q1hzvp_tA" />
     <meta name="keywords" content="Estruturas Metálicas, Telhados, Coberturas, Telhas, Mistas, Policarbonato, Estrutura para Telhados, coberturas, Guarulhos, aço, telhado de policarboanto, telhado de vidro, coberturas em vidro, coberturas metálicas, coberturas mistas, coberturas de policarbonato, telhados, estruturas, calhas, telhado de policarbonato, policarbonato alveolar, telhado misto" />
 
     <meta name="description" content="A Unimetal oferece estruturas metálicas, telhados e coberturas como telhados em policarbonato, coberturas para garagem com a maior diversidade e custo benefício para Guarulhos e região" />

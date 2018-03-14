@@ -1,0 +1,10 @@
+2018-03-14 16:59:36 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /telhados/orcamentos
+Stack Trace:
+#0 [internal function]: App::load('OrcamentosContr...')
+#1 [internal function]: spl_autoload_call('OrcamentosContr...')
+#2 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(266): class_exists('OrcamentosContr...')
+#3 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\telhados\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\telhados\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

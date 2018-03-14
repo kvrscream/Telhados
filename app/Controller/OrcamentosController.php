@@ -21,11 +21,10 @@ class OrcamentosController extends AppController {
 		
 		if($this->request->is("post")){
 			$Email = new CakeEmail();
-    	
     	$Email->config('gmail')
           ->emailFormat('html')
-          ->from("contao@unimetaltelhados.com.br")              
-          ->to("contao@unimetaltelhados.com.br")
+          ->from("contato@unimetaltelhados.com.br")        
+          ->to("contato@unimetaltelhados.com.br")
           ->subject("Unimetal Telhados site - Orçamentos")
           ->bcc("lourdesalmeida84@gmail.com");
 

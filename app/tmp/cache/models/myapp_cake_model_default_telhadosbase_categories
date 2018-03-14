@@ -1,10 +1,2 @@
-<<<<<<< HEAD
-1520097216
-=======
-<<<<<<< HEAD
-1519823711
-=======
-1519776113
->>>>>>> db24f8c062c42fe8021c7e042b58221dd79851e9
->>>>>>> cd8736663bf88b25a249af4b6b34580a59e3a846
+1521043322
 a:2:{s:2:"id";a:6:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:8:"unsigned";b:0;s:3:"key";s:7:"primary";}s:4:"name";a:6:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:255;s:7:"collate";s:17:"latin1_general_ci";s:7:"charset";s:6:"latin1";}}
